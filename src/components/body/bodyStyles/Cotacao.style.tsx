@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const body = styled.div`
     margin-top: 150px;
+    z-index: 0;
 `
 
 export const search = styled.div`
@@ -87,6 +88,7 @@ export const Result = styled.p`
     height: 300px;
     margin: 0 auto;
     border-radius: 10px;
+    z-index: 0;
 
     @media (max-width: 999px) {
         width: 70%;

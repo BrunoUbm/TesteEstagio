@@ -8,6 +8,7 @@ export const Header = styled.header`
     position: fixed;
     background-color: rgba(0, 0, 0, 0.7);
     top: 0;
+    z-index: 2;
 `
 
 
